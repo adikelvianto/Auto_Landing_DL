@@ -22,7 +22,7 @@ This project aim to create **auto landing deep learning model** using TensorFlow
 <img width="1307" alt="Elevator Comparison" src="https://user-images.githubusercontent.com/92104520/196446972-d92fe034-d835-4562-9993-a1ab18730c35.png">
 </p>
 
-* [Throttle model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/throttle_model.h5) also work well in terms of following pilot behavior in deflecting 4 units of power lever angle (Since the aircraft have 4 engines). The problem for this model is the prediction value tends to fluctuate rather than having constant value to create step input graph. The comparison between model prediction and actual power lever angle value can be seen from this picture below. 
+* [Throttle model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/throttle_model.h5) also **work well** in terms of following pilot behavior in deflecting 4 units of power lever angle (Since the aircraft have 4 engines). The problem for this model is the prediction value tends to **fluctuate** rather than having constant value to create step input graph. The comparison between model prediction and actual power lever angle value can be seen from this picture below. 
 
 <p align="center">
 <img width="897" alt="PLA Comparison" src="https://user-images.githubusercontent.com/92104520/196449142-dda478d9-03d1-4ad6-8ee5-dfe12e6aea59.png">
